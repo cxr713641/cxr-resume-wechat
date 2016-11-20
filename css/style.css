@@ -7,7 +7,7 @@ i{ font-style: normal;}
 .clearfix:after{
 	display: block; height: 0; clear: both; visibility: hidden;
 }
-html{ font-size: 625%;}
+html{ font-size: 325%;}
 body{ 
 	font-family: "微软雅黑"; font-size: 0.12rem; max-width: 6.4rem; min-width: 3.2rem; margin: 0 auto;
 }
@@ -19,16 +19,16 @@ html,body,.swiper-container{ height: 100%;}
 .title02{ position: absolute; left: 10%; top:80%; }
 
 .first-resume{
-	 position: absolute; top: 1.2rem; left: 50%; margin-left: -2.5rem; width: 5.0rem; height: 1.2rem; font-size: 1.1rem; line-height: 1.2rem; font-weight: bold; text-align: center; color: #FFFFFF;
+	 position: absolute; top: 0.8rem; left: 50%; margin-left: -2.5rem; width: 5.0rem; height: 1.2rem; font-size: 1.1rem; line-height: 1.2rem; font-weight: bold; text-align: center; color: #FFFFFF;
 }
 .first-resume2{
-	position: absolute; top: 2.4rem; left: 50%; margin-left: -1.5rem; width: 3.0rem; height: 0.6rem; font-size: 0.3rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
+	position: absolute; top: 2.0rem; left: 50%; margin-left: -1.5rem; width: 3.0rem; height: 0.6rem; font-size: 0.3rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
 }
 .first-resume3{
-	position: absolute; top: 3.0rem; left: 50%; margin-left: -2.0rem; width: 4.0rem; height: 0.6rem; font-size: 0.4rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
+	position: absolute; top: 2.6rem; left: 50%; margin-left: -2.0rem; width: 4.0rem; height: 0.6rem; font-size: 0.4rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
 }
 .first-photo{
-	position: absolute; top: 4.1rem; left: 50%; margin-left: -1.4rem; width: 2.8rem; height: 2.8rem; border-radius: 50%; 
+	position: absolute; top: 3.7rem; left: 50%; margin-left: -1.4rem; width: 2.8rem; height: 2.8rem; border-radius: 50%; 
 }
 .first-photo-border{
 	position: absolute; top: -0.2rem; left: -0.2rem;  width: 3.0rem; height: 3.0rem; border-radius: 50%; border: 0.1rem solid #FFFFFF;
@@ -37,59 +37,11 @@ html,body,.swiper-container{ height: 100%;}
 	width: 100%; border-radius: 50%;
 }
 .first-tel{
-	position: absolute; bottom: 2.4rem; left: 50%; margin-left: -2.0rem; width: 4.0rem; height: 0.6rem; font-size: 0.35rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
+	position: absolute; bottom: 1.4rem; left: 50%; margin-left: -2.0rem; width: 4.0rem; height: 0.6rem; font-size: 0.35rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
 }
 .first-mail{
-	position: absolute; bottom: 1.7rem; left: 50%; margin-left: -2.4rem; width: 4.8rem; height: 0.6rem; font-size: 0.35rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
+	position: absolute; bottom: 0.7rem; left: 50%; margin-left: -2.4rem; width: 4.8rem; height: 0.6rem; font-size: 0.35rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
 }
-
-/*.personal{
-	position: absolute; top: 0.4rem; left: 50%; margin-left:-2.5rem; width: 5.0rem; height: 5.0rem;  overflow: hidden;
-}
-.personal-main{
-	position: absolute; top: 0rem; left: 0;  width: 5.0rem; height: 5.0rem; border-radius: 50%; overflow: hidden; 
-}
-.personal-fan{
-	position: absolute; right: 0; top: 0; width: 2.5rem; height: 2.5rem; overflow: hidden; transform-origin: 0 100%; z-index: 10;	N
-}
-.personal-fan-main{
-	display: block; width: 2.5rem; height: 2.5rem; transform-origin: 0 100%; transform: rotate(-45deg); background: #80a7ae; box-shadow: 12px 12px 12px #000000;
-}
-.personal-fan:nth-child(2){
-	transform: rotate(45deg); z-index: 9;
-}
-.personal-fan:nth-child(2) .personal-fan-main{
-	background: #c8b897;
-}
-.personal-fan:nth-child(3){
-	transform: rotate(90deg); z-index: 8;
-}
-.personal-fan:nth-child(4){
-	transform: rotate(135deg); z-index: 7;
-}
-.personal-fan:nth-child(4) .personal-fan-main{
-	background: #63514f;
-}
-.personal-fan:nth-child(5){
-	transform: rotate(180deg); z-index: 6;
-}
-.personal-fan:nth-child(6){
-	transform: rotate(225deg); z-index: 5;
-}
-.personal-fan:nth-child(6) .personal-fan-main{
-	background: #fd604d;
-}
-.personal-tell{
-	position: absolute; top: 0; left: 0; width: 2.0rem; height: 1.5rem; border-radius: 0.3rem; border: 0.02rem solid #FFFFFF; background: #f4f4f6;
-}
-.personal-man-bg{
-	position: absolute; top: 1.4rem; left: 1.4rem; width: 2.2rem; height: 2.2rem; border-radius: 50%; background: #f8fae5; z-index: 13; 
-}
-.personal-man-bg2{
-	position: absolute; top: 0.1rem; left: 0.1rem; width: 2.0rem; height: 2.0rem; border-radius: 50%; background: #7a9fa7; z-index: 15;
-}
-
-*/
 
 .all-title{
 	position: absolute; left: 50%; top: 0.9rem; width: 6.0rem; margin-left: -3.0rem; height: 0rem; border: 0.03rem solid #FFFFFF;
@@ -221,6 +173,109 @@ html,body,.swiper-container{ height: 100%;}
 }
 .experience-branch3 em{
 	position: absolute; top: -0.1rem; right:-0.1rem; height: 0.2rem; width: 0.2rem; border-radius: 50%; background: #FFFFFF;
+}
+
+
+.evaluate-myself{
+	position: absolute; top: 1.5rem; left: 50%; width: 4.4rem; margin-left: -2.0rem; line-height: 0.4rem; color: #FFFFFF; font-size: 0.25rem;
+}
+/*简历投递动画*/
+.cartoon{
+	position: absolute; left: 50%; top: 3rem; width: 4.0rem; height: 4.5rem; margin-left: -2.0rem; background: #000; overflow: hidden;
+}
+
+.cartoon-envelop{
+	position: absolute; right: 50%; bottom: 0; width: 2.8rem; height: 1.4rem; margin-right: -1.4rem;  overflow: hidden;/* transform:rotate(0deg); -webkit-transform:rotate(0deg); border-radius: 0rem; animation:envelopmove 10.0s linear .1s infinite;
+	-webkit-animation:envelopmove 10.0s linear .1s infinite;*/
+}
+@-webkit-keyframes envelopmove{
+	0{height: 1.4rem;}
+	70%{height: 1.4rem;}
+	90%{height: 2.8rem; border-radius: 0rem;}
+	95%{height: 2.8rem; border-radius: 50%; display: block; transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+	100%{height: 2.8rem; border-radius: 50%; display: none; transform:rotate(45deg); -webkit-transform:rotate(45deg);}
+}
+@keyframes envelopmove{
+	0{height: 1.4rem;}
+	70%{height: 1.4rem;}
+	90%{height: 2.8rem; border-radius: 0rem;}
+	95%{height: 2.8rem; border-radius: 50%; display: block; transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+	100%{height: 2.8rem; border-radius: 50%; display: none; transform:rotate(45deg); -webkit-transform:rotate(45deg);}
+}
+.cartoon-envelop-main{
+	 position:absolute; bottom: 0; left: 0; width: 2.8rem; height: 2.8rem; background: #666666; border-radius: 20%; overflow: hidden; 
+}
+.cartoon-btn{
+	position: absolute; left: 50%; bottom: 0.25rem; width: 0.9rem; height: 0.9rem; border-radius:50% ; background: #FFFFFF; z-index: 2; margin-left: -0.45rem; animation: btnmove-1 10.0s linear .1s infinite;
+	-webkit-animation: btnmove-1 10.0s linear .1s infinite;
+}
+@-webkit-keyframes btnmove-1{
+	0{transform:rotate(0deg); -webkit-transform:rotate(0deg);  }
+	60%{transform:rotate(360deg); -webkit-transform:rotate(360deg)}
+	70%{transform:rotate(0deg); -webkit-transform:rotate(0deg)}
+	100%{transform:rotate(0deg); -webkit-transform:rotate(0deg)}
+}
+@keyframes btnmove-1{
+	0{transform:rotate(0deg); -webkit-transform:rotate(0deg);  }
+	60%{transform:rotate(360deg); -webkit-transform:rotate(360deg)}
+	70%{transform:rotate(0deg); -webkit-transform:rotate(0deg)}
+	100%{transform:rotate(0deg); -webkit-transform:rotate(0deg)}
+}
+@-webkit-keyframes btnmove{
+	0{transform:rotate(0deg); -webkit-transform:rotate(0deg);  }
+	35%{transform:rotate(360deg); -webkit-transform:rotate(360deg)}
+	70%{transform:rotate(0deg); -webkit-transform:rotate(0deg); bottom: 0.25rem;}
+	90%{transform:rotate(360deg); -webkit-transform:rotate(360deg); bottom: 0.95rem; display: block;}
+	99%{transform:rotate(0deg); -webkit-transform:rotate(0deg); bottom: 0.95rem; display: block;}
+	100%{transform:rotate(360deg); -webkit-transform:rotate(360deg); bottom: 0.95rem; display: none;}
+}
+@keyframes btnmove{
+	0{transform:rotate(0deg); -webkit-transform:rotate(0deg);  }
+	35%{transform:rotate(360deg); -webkit-transform:rotate(360deg)}
+	70%{transform:rotate(0deg); -webkit-transform:rotate(0deg); bottom: 0.25rem;}
+	90%{transform:rotate(360deg); -webkit-transform:rotate(360deg); bottom: 0.95rem; display: block;}
+	99%{transform:rotate(0deg); -webkit-transform:rotate(0deg); bottom: 0.95rem; display: block;}
+	100%{transform:rotate(360deg); -webkit-transform:rotate(360deg); bottom: 0.95rem; display: none;}
+}
+.cartoon-btn-sew{
+	position: absolute; bottom: 0.4rem; left:0.2rem ; width: 0.5rem; height: 0.1rem; background: #000000; transform: rotate(45deg); -webkit-transform:rotate(45deg);
+}
+.cartoon-btn-sew-left{
+	transform: rotate(-45deg);
+}
+/*.cartoon-btn-sew i{
+	position: absolute; left: -0.04rem; top: -0.04rem; width: 0.08rem; height: 0.08rem;
+}
+.cartoon-btn-sew span{
+	position: absolute; right: -0.04rem; top: -0.04rem; width: 0.08rem; height: 0.08rem; 
+}*/
+.cartoon-letter{
+	position: absolute; right: 50%; bottom: 0.6rem; width: 2.4rem; height: 1.4rem; margin-right: -1.2rem;  overflow: hidden; animation:lettermove 10.0s linear .1s infinite;
+	-webkit-animation:lettermove 10.0s linear .1s infinite;
+}
+@-webkit-keyframes lettermove{
+	0{height: 1.4rem;}
+	60%{height: 2.8rem;}
+	70%{height: 10.0rem;}
+	100%{height: 10.0rem;}
+}
+@keyframes lettermove{
+0{height: 1.4rem;}
+	60%{height: 2.8rem;}
+	70%{height: 10.0rem;}
+	100%{height: 10.0rem;}
+}
+.cartoon-letter-main{
+	 position:absolute; top: 0; left: 0; width: 2.4rem; height: 2.8rem; background: #FFFFFF; border-radius: 20%; overflow: hidden; 
+}
+.cartoon-letter-main span{
+	display: block; height: 0.55rem; width: 2.4rem; line-height: 0.55rem; text-align: center; font-size: 0.48rem; font-weight: bold; margin-top: 0.25rem;
+}
+.cartoon-letter-main ul{
+	width: 2.25rem; background: #FFFFFF; margin: 0 auto;
+}
+.cartoon-letter-main ul li{
+	width: 2.25rem; height: 0.12rem; margin:0.075rem 0; background: #000000; 
 }
 
 
