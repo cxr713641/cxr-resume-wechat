@@ -7,7 +7,7 @@ i{ font-style: normal;}
 .clearfix:after{
 	display: block; height: 0; clear: both; visibility: hidden;
 }
-html{ font-size: 625%;}
+html{ font-size: 325%;}
 body{ 
 	font-family: "微软雅黑"; font-size: 0.12rem; max-width: 6.4rem; min-width: 3.2rem; margin: 0 auto;
 }
@@ -19,16 +19,16 @@ html,body,.swiper-container{ height: 100%;}
 .title02{ position: absolute; left: 10%; top:80%; }
 
 .first-resume{
-	 position: absolute; top: 1.2rem; left: 50%; margin-left: -2.5rem; width: 5.0rem; height: 1.2rem; font-size: 1.1rem; line-height: 1.2rem; font-weight: bold; text-align: center; color: #FFFFFF;
+	 position: absolute; top: 0.8rem; left: 50%; margin-left: -2.5rem; width: 5.0rem; height: 1.2rem; font-size: 1.1rem; line-height: 1.2rem; font-weight: bold; text-align: center; color: #FFFFFF;
 }
 .first-resume2{
-	position: absolute; top: 2.4rem; left: 50%; margin-left: -1.5rem; width: 3.0rem; height: 0.6rem; font-size: 0.3rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
+	position: absolute; top: 2.0rem; left: 50%; margin-left: -1.5rem; width: 3.0rem; height: 0.6rem; font-size: 0.3rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
 }
 .first-resume3{
-	position: absolute; top: 3.0rem; left: 50%; margin-left: -2.0rem; width: 4.0rem; height: 0.6rem; font-size: 0.4rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
+	position: absolute; top: 2.6rem; left: 50%; margin-left: -2.0rem; width: 4.0rem; height: 0.6rem; font-size: 0.4rem; line-height: 0.6rem;  text-align: center; color:#FFFFFF;
 }
 .first-photo{
-	position: absolute; top: 4.1rem; left: 50%; margin-left: -1.4rem; width: 2.8rem; height: 2.8rem; border-radius: 50%; 
+	position: absolute; top: 3.7rem; left: 50%; margin-left: -1.4rem; width: 2.8rem; height: 2.8rem; border-radius: 50%; 
 }
 .first-photo-border{
 	position: absolute; top: -0.2rem; left: -0.2rem;  width: 3.0rem; height: 3.0rem; border-radius: 50%; border: 0.1rem solid #FFFFFF;
@@ -185,8 +185,8 @@ html,body,.swiper-container{ height: 100%;}
 }
 
 .cartoon-envelop{
-	position: absolute; right: 50%; bottom: 0; width: 2.8rem; height: 1.4rem; margin-right: -1.4rem;  overflow: hidden; transform:rotate(0deg); -webkit-transform:rotate(0deg); border-radius: 0rem; animation:envelopmove 10.0s linear .1s infinite;
-	-webkit-animation:envelopmove 10.0s linear .1s infinite;
+	position: absolute; right: 50%; bottom: 0; width: 2.8rem; height: 1.4rem; margin-right: -1.4rem;  overflow: hidden;/* transform:rotate(0deg); -webkit-transform:rotate(0deg); border-radius: 0rem; animation:envelopmove 10.0s linear .1s infinite;
+	-webkit-animation:envelopmove 10.0s linear .1s infinite;*/
 }
 @-webkit-keyframes envelopmove{
 	0{height: 1.4rem;}
@@ -206,8 +206,20 @@ html,body,.swiper-container{ height: 100%;}
 	 position:absolute; bottom: 0; left: 0; width: 2.8rem; height: 2.8rem; background: #666666; border-radius: 20%; overflow: hidden; 
 }
 .cartoon-btn{
-	position: absolute; left: 50%; bottom: 0.25rem; width: 0.9rem; height: 0.9rem; border-radius:50% ; background: #FFFFFF; z-index: 2; margin-left: -0.45rem; animation: btnmove 10.0s linear .1s infinite;
-	-webkit-animation: btnmove 10.0s linear .1s infinite;
+	position: absolute; left: 50%; bottom: 0.25rem; width: 0.9rem; height: 0.9rem; border-radius:50% ; background: #FFFFFF; z-index: 2; margin-left: -0.45rem; animation: btnmove-1 10.0s linear .1s infinite;
+	-webkit-animation: btnmove-1 10.0s linear .1s infinite;
+}
+@-webkit-keyframes btnmove-1{
+	0{transform:rotate(0deg); -webkit-transform:rotate(0deg);  }
+	60%{transform:rotate(360deg); -webkit-transform:rotate(360deg)}
+	70%{transform:rotate(0deg); -webkit-transform:rotate(0deg)}
+	100%{transform:rotate(0deg); -webkit-transform:rotate(0deg)}
+}
+@keyframes btnmove-1{
+	0{transform:rotate(0deg); -webkit-transform:rotate(0deg);  }
+	60%{transform:rotate(360deg); -webkit-transform:rotate(360deg)}
+	70%{transform:rotate(0deg); -webkit-transform:rotate(0deg)}
+	100%{transform:rotate(0deg); -webkit-transform:rotate(0deg)}
 }
 @-webkit-keyframes btnmove{
 	0{transform:rotate(0deg); -webkit-transform:rotate(0deg);  }
