@@ -1,1 +1,1 @@
-# cxr-resume-wechat
+# 手机端简历，利用html5与css3进行制作完成
